@@ -1,0 +1,108 @@
+/* Pour modifier du css sans toucher au fichier bootstrap*/
+
+.btn-success {
+    /*bouton css*/
+    color: #fff;
+    background-color: #5f9d5f;
+    border-color: #5f9d5f;
+}
+
+.table-dark {
+    /*Tableau css*/
+    --bs-table-bg: #484848;
+    --bs-table-striped-bg: #656565;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #373b3e;
+}
+
+.boutoncssred {
+    /*Etat rouge*/
+    background-color: red;
+    border: none;
+    display: inline-block;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.boutoncssgreen {
+    /*Etat vert*/
+    background-color: #19ab33;
+    border: none;
+    display: inline-block;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.checkboxcss {
+    /* Checkbox*/
+    transform: scale(1.5);
+}
+
+input[type='checkbox'] {
+    /* Couleur des checkbox checked*/
+    accent-color: #434443;
+}
+
+
+/*Css valider*/
+
+.btn-outline-dark {
+    color: #212529;
+    border-color: #1d1d1d;
+}
+
+
+/*Css archiver*/
+
+.btn-outline-secondary {
+    color: #828482;
+    border-color: #828482;
+}
+
+body {
+    /*Page*/
+    margin: 0;
+    background-color: #cccccc;
+}
+
+.navbar-brand {
+    /*Navbar du titre*/
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #C8C7C7;
+}
+
+.nav-link {
+    /*Navbar link (archive)*/
+    color: white;
+}
+
+.nav-link:hover {
+    color: #C8C7C7;
+}
+
+.btn-outline-white {
+    color: dark;
+    border-color: #212121;
+    border-radius: 25px;
+    margin: 3px 0px;
+}
+
+.btn-outline-white:hover {
+    color: #E8E5E5;
+    background-color: #212121;
+    border: 2px solid rgba(139, 139, 139, .3);
+}
